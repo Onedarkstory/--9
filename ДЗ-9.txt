@@ -1,0 +1,24 @@
+using System;
+
+
+namespace HospitalQueue
+{
+    internal class Program
+    {
+        
+        static void Main(string[] args)
+        {
+            string usingInput = "";
+            while(usingInput != "exit")
+            {
+                Console.Write("Введите ваше сообщение (Для выхода из программы введите 'exit'): ");
+                usingInput = Console.ReadLine();
+                if(usingInput != "exit")
+                {
+                    Console.WriteLine($"Вы ввели {usingInput} ");
+                }
+            }
+                Console.WriteLine("Программа завершена!");
+        }
+    }
+}
