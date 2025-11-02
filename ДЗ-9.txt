@@ -1,12 +1,9 @@
 using System;
-
-
 namespace Exit
 {
     internal class Program
     {
-        
-        static void Main(string[] args)
+           static void Main(string[] args)
         {
             string usingInput = "";
             while(usingInput != "exit")
@@ -21,6 +18,6 @@ namespace Exit
                 Console.WriteLine("Программа завершена!");
         }
     }
-
 }
+
 
