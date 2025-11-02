@@ -11,18 +11,17 @@ namespace Exit
 
             while (usingInput != exit)
             {
-                Console.Write("Введите ваше сообщение (Для выхода из программы введите 'exit'): ");
+                Console.Write("Введите ваше сообщение (Для выхода из программы введите exit): ");
                 usingInput = Console.ReadLine();
 
-                    Console.WriteLine($"Вы ввели: {usingInput} ");
-                
+                Console.WriteLine($"Вы ввели: {usingInput} ");
             }
-
             Console.WriteLine("Программа завершена!");
-
         }
     }
 }
+
+
 
 
 
